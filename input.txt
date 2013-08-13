@@ -1,0 +1,7 @@
+program expr   {Sample tvi code here}
+ var a, b : integer
+ begin
+   a := 3;
+   b := a * 4;
+   c := b + a DIV 2
+ end.

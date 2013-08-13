@@ -1,0 +1,18 @@
+(*this is a comment*)
+program average
+var
+   sum, value, {comment} average, i : integer
+begin   (*comment*)
+{comment}
+   sum := 0; //comment
+   average := 0;
+     //comment
+   for i := 1 to 100 do
+      begin
+         read(value);
+     {comment}
+         sum := sum + value;
+      end;
+   average := sum div 100;
+   write(average)(*comment*) //comment
+end.
